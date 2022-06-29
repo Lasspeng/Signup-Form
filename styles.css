@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf");
+}
+
+body {
+  font-family: Georgia, serif;
+  display: flex;
+  margin: 0;
+}
+
+#image-and-logo {
+  background-image: url("./images/background-image.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form-and-links {
+  height: 100vh;
+  width: 60%;
+}
+
+.logo {
+  background: rgba(0,0,0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 90px;
+}
+
+.logo p {
+  font-family: "Norse Bold", Georgia, serif;
+  font-size: 100px;
+  margin: 0;
+}
+
+img {
+  height: 150px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 40%;
+  text-align: center;
+}
+
+footer p {
+  font-weight: lighter;
+}
